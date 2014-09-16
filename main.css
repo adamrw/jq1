@@ -1,0 +1,23 @@
+.main-container {
+	font-family: sans-serif;
+	background-color: #D9EDF7;
+	color: #6B7096;
+	text-align: center;
+}
+
+.main-container, h1 {
+	color: #31708F;
+	
+}
+
+button {
+	color: white;
+	margin: auto;
+	padding: 15px;
+	border: 2px solid #6B7096;
+
+}
+
+li {
+	list-style: none;
+}

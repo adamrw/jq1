@@ -12,7 +12,7 @@
 
 
 $("#fancy").click(function() {
-	var newElement=$("<li>Holy Shit!</li><li>Holy Shit!</li><li>Holy Shit!</li><li>Holy Shit!</li><li>Holy Shit!</li><li>Holy Shit!</li>");
+	var newElement=$("<li>Holy Shit!</li><li>Holy Shit!</li><li>Holy Shit!</li><li>Holy Shit!</li><li>Holy Shit!</li> ");
 	   
 		newElement.css("color", "#cb04d6");
 	$("#my-list").append(newElement);

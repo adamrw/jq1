@@ -1,18 +1,5 @@
-// var liItems = $('li')
-// 	.css("color", "red")
-// 	.text("Changed from jQuery")
-// 	.width(50);
-
-// var newElement = $("<li>From jQuery</li>");
-
-// newElement.css("color", "red");
-
-// $("#my-list").append(newElement);
 $(document).on('ready', function() {
-  
-
-
-$("#first-button").click(function() {
+  $("#first-button").click(function() {
 	var newP1=$("<p>Here's some additional text for ya, asshole!</p>");
 		newP1.css("color", "#cb04d6");
 	$("#first-button").append(newP1);
@@ -26,17 +13,10 @@ $("#second-button").click(function() {
 	newH1.css("color", "#31708F");
 	$("#second-button").append(newH1);
 });
-
 $("#third-button").click(function() {
 	var newElement=$("<li>Holy Shit!</li><li>Holy Shit!</li><li>Holy Shit!</li><li>Holy Shit!</li><li>Holy Shit!</li><li>Holy Shit!</li><li>Holy Shit!</li><li>Holy Shit!</li><li>Holy Shit!</li><li>Holy Shit!</li><li>Holy Shit!</li><li>Holy Shit!</li><li>Holy Shit!</li><li>Holy Shit!</li><li>Holy Shit!</li>");
 	   
-		newElement.css("color", "#cb04d6"); 
-		// newElement.css("text-align", "center");
+		newElement.css("color", "#cb04d6"); 		
 	$("#third-button").append(newElement);
 });
-
-
-
-
-
 });

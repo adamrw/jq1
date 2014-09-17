@@ -2,7 +2,6 @@
 	font-family: sans-serif;
 	background-color: #D9EDF7;
 	background-size: 100%;
-	/*background-width: 100%;*/
 	color: #6B7096;
 	text-align: center;
 	margin:auto;
@@ -15,22 +14,17 @@
 	padding-bottom: 30px;
 	border: 2px solid #31708F;
 	box-shadow: #B4B5B5 20px 20px 20px;
-	border-radius: 10px;
-	/*margin-bottom: 20px;*/
-	/*border:3px solid #6B7096;*/
-	
+	border-radius: 10px;	
 }
 
 .main-container, button {
 	color: #6B7096;
-	/*margin: auto;*/
 	padding: 15px;
 	border: 2px solid #31708F;
 	margin-left: 20px;
 	margin-right: 20px;
 	border-radius: 10px;
 	box-shadow: #B4B5B5 10px 10px 10px;
-
 }
 
 .main-conatiner, li {

@@ -18,7 +18,7 @@ $("#first-button").click(function() {
 $(".main-container").hide(10000);
 $(".main-container").show(5000);
 console.log("Don't touch my fucking button!");
-alert("Now watch what happens... you'll know why I'm fucking angry at my buttons!");
+alert("Now watch what happens... you'll know why I'm fucking angry at my buttons!" + " **I kid, what happens next is on purpose.**");
 });
 $("#second-button").click(function() {
 	var newH1 = $("<h1>Dick! You Added A Header In This Button!</h1>");

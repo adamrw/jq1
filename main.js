@@ -8,7 +8,8 @@
 // newElement.css("color", "red");
 
 // $("#my-list").append(newElement);
-
+$(document).on('ready', function() {
+  
 
 
 $("#first-button").click(function() {
@@ -32,4 +33,10 @@ $("#third-button").click(function() {
 		newElement.css("color", "#cb04d6"); 
 		// newElement.css("text-align", "center");
 	$("#third-button").append(newElement);
+});
+
+
+
+
+
 });

@@ -1,23 +1,30 @@
 .main-container {
 	font-family: sans-serif;
 	background-color: #D9EDF7;
+	background-size: 100% 100%;
+	/*background-width: 100%;*/
 	color: #6B7096;
 	text-align: center;
-}
+	margin:auto;
+}kjkkjjk
 
 .main-container, h1 {
 	color: #31708F;
+	padding-top: 20px;
 	
 }
 
 button {
-	color: white;
-	margin: auto;
+	color: #6B7096;
+	/*margin: auto;*/
 	padding: 15px;
 	border: 2px solid #6B7096;
+	margin-left: 20px;
+	margin-right: 20px;
 
 }
 
 li {
 	list-style: none;
+	margin-left: -30px;
 }
